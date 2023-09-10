@@ -22,6 +22,16 @@ nav{
     justify-content: space-around;
     align-items: center;
 }
+nav .logo{
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    background-image: url(../img/faqi-faculdade-qi-brasil.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 7px;
+}
 nav ul{
     display: flex;
     align-items: center;
