@@ -56,15 +56,21 @@ main{
     background-color: #fff;
     padding: 20px;
 }
+.banner{
+    width:80wh;
+    height: 40vh;
+    background-color: #004d40;
+}
 #banner {
     background-image: url(../img/banner.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 300px;
+    height: 370px;
     margin-bottom: 20px;
 }
 .container{
+    width: 100wh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -72,7 +78,8 @@ main{
 }
 
 .container section img{
-    background-image: url(../img/Indio\ 8.jpg);
+    width: 400wh;
+    height: 300vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
