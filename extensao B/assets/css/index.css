@@ -13,8 +13,7 @@ body{
 /*inicio*/
 header{
     width: 100%;
-    background-color: #004d40;
-    color: white;
+    background-color: #fff;
     text-align: center;
 }
 nav{
@@ -43,32 +42,41 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    color: #fff
+    color: red;
+    font-size: 30px;
+
 }
 nav ul li a:hover {
-    color: #ffee58;
+    color: grey;
     transition: 0.5s ease-in-out;
 }
 /*heder fim*/
 main{
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 250vh;
     background-color: #fff;
     padding: 20px;
+    background-image: url(../img/indio\ veio.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
-.banner{
+h1,p{
+    color: red;
+}
+/*.banner{
     width:80wh;
     height: 40vh;
     background-color: #004d40;
-}
-#banner {
+}*/
+/*#banner {
     background-image: url(../img/banner.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 370px;
     margin-bottom: 20px;
-}
+}*/
 .container{
     width: 100wh;
     display: flex;
@@ -77,17 +85,15 @@ main{
     flex-direction: column;
 }
 
-.container section img{
-    width: 400wh;
-    height: 300vh;
+/*.container section img{
+    width: 1800px;
+    height: 1600px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
     margin-bottom: 20px;
-    width: 200%;
-    height: 200px;
-}
+}*/
 footer {
     background-color: #004d40;
     color: #fff;
